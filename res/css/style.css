@@ -1,0 +1,25 @@
+body{
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.colorRed,.colorBlue, .colorGreen {
+    filter:grayscale(1);
+}
+
+.colorRed:hover,.colorBlue:hover, .colorGreen:hover {
+    filter:grayscale(0);
+}
+
+.colorRed img:hover {
+    filter:hue-rotate(0deg);
+}
+
+.colorBlue img:hover {
+    filter:hue-rotate(215deg);
+}
+
+.colorGreen img:hover{
+    filter:hue-rotate(100deg);
+}
