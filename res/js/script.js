@@ -63,9 +63,5 @@ window.onload = () => {
         if(x + width >= canvas.width || x <=0){
             xVelocity *= -1;
         }
-    
-        ctx.filter = `hue-rotate(${getRandomNumber(0, 360)}deg)`;
-        ctx.drawImage(image, x, y, width, height);
-        ctx.filter = "none";
     },1);
 }
